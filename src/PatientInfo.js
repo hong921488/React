@@ -5,7 +5,6 @@ import { getJWTToken } from './authService';
 import config from './config.js';
 
 
-
 const PatientInfo = ({hcaseno}) => {
   const [patientInfo, setPatientInfo] = useState({
     HSEX:'',
@@ -99,7 +98,7 @@ const PatientInfo = ({hcaseno}) => {
       <div className="row" style={{marginTop:'10px'}}>
         <div className="col-6">
           <h1 className="custom-font" style={{ fontSize: '110px', display: 'flex', alignItems: 'center' }}>
-          <img src={`/imgs/${patientInfo.tot_sc}C.png`} alt='' style={{ width: '150px', height: '150px' }} />
+          <img src={`${process.env.PUBLIC_URL}/imgs/${patientInfo.tot_sc}C.png`} alt='' style={{ width: '150px', height: '150px' }} />
             {patientInfo.HNURSTAT}-{patientInfo.HBEDNO}
           </h1>
         </div>
@@ -123,7 +122,7 @@ const PatientInfo = ({hcaseno}) => {
       <div className="row" style={{height:'250px'}}>
         <div className="col-9">
           <h2 className="custom-font" style={{ fontSize: '180px' }}>
-            <img src={`${patientInfo.HSEX==='F'?'/imgs/female.png':'/imgs/male.png' }`} alt="male" style={{ width: '70px', height: '150px',marginTop:'-30px' }} />
+            <img src={`${patientInfo.HSEX==='F'?`${process.env.PUBLIC_URL}/imgs/female.png`:`${process.env.PUBLIC_URL}/imgs/male.png` }`} alt="male" style={{ width: '70px', height: '150px',marginTop:'-30px' }} />
             <span>{patientInfo.HNAMEC !== '' ? formatHNAMEC(patientInfo.HNAMEC) : '空床'}</span>
           </h2>
         </div>

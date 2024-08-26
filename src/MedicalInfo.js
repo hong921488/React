@@ -165,7 +165,7 @@ const MedicalInfo = ({ hcaseno }) => {
 
       <div className="grid-container">
         {medicalInfo.HPATISOL && medicalInfo.HPATISOL.trim() !== '' && (
-          <img src={`/imgs/ISOLATE_${medicalInfo.HPATISOL}.png`} alt={`ISOLATE_${medicalInfo.HPATISOL}`} />
+          <img src={`${process.env.PUBLIC_URL}/imgs/ISOLATE_${medicalInfo.HPATISOL}.png`} alt={`ISOLATE_${medicalInfo.HPATISOL}`} />
         )}
         <WarningCards medicalInfo={medicalInfo} />
       </div>
