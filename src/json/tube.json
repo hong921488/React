@@ -1,0 +1,51 @@
+[
+    {
+      "HCASENO": "04079285",
+      "HHISNUM": "001891075D",
+      "TUBE": "簡易管路",
+      "NB": "",
+      "DEEP": "",
+      "SCHEDULED_DATE": "2024-08-01",
+      "HNURSTAT": "A",
+      "HBEDNO": "02",
+      "HNAMEC": "王小明",
+      "ONDATE": "2024/07/30",
+      "ONTM": "0810",
+      "ID": "90141532FC",
+      "CHANGDATE": "",
+      "BUNDLEYN": "中心導管"
+    },
+    {
+      "HCASENO": "04079285",
+      "HHISNUM": "001891075D",
+      "TUBE": "導尿管",
+      "NB": "",
+      "DEEP": "",
+      "SCHEDULED_DATE": "2024-08-01",
+      "HNURSTAT": "A",
+      "HBEDNO": "02",
+      "HNAMEC": "王小明",
+      "ONDATE": "2024/08/01",
+      "ONTM": "0810",
+      "ID": "90141532FC",
+      "CHANGDATE": "",
+      "BUNDLEYN": "中心導管"
+    },
+    {
+      "HCASENO": "04079285",
+      "HHISNUM": "001891075D",
+      "TUBE": "氣管內管",
+      "NB": "",
+      "DEEP": "",
+      "SCHEDULED_DATE": "2024-08-01",
+      "HNURSTAT": "A",
+      "HBEDNO": "02",
+      "HNAMEC": "王小明",
+      "ONDATE": "2024/08/01",
+      "ONTM": "0810",
+      "ID": "90141532FC",
+      "CHANGDATE": "2024/08/05",
+      "BUNDLEYN": "中心導管"
+    }
+  ]
+  

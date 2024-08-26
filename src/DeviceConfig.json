@@ -1,0 +1,24 @@
+{
+  "DisplayNo": "1",
+  "IsUpdate": true,
+  "NextTime": 30,
+  "LedMode":0,
+  "LedActionTime":4,
+  "FrontLight":4,
+  "FSImg": [
+    {
+      "FileName": "RCC-05-3.png",
+      "x": 0,
+      "y": 0,
+      "w": 1600,
+      "h": 1200
+    }
+  ],
+  "ExpandButton_1": null,
+  "ExpandButton_2": null,
+  "ExpandButton_3": null,
+  "ExpandButton_4": null,
+  "WaitingTimeOut": null,
+  "ConnFailCount": null,
+  "ConnDelayTime": null
+}
