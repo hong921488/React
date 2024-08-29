@@ -26,25 +26,7 @@ const CareTeam = ({ hcaseno }) => {
         const doctor = patientData.bedInfo && patientData.bedInfo.length > 0 ? patientData.bedInfo[0] : {};
         const npnurse = patientData.patAdmDoctor  || {};
         const nurse = patientData.nursClassDetail && patientData.nursClassDetail.length > 0 ? patientData.nursClassDetail[0] : {};
-        // if(!hbedno) {
-        //   setCareTeam({
-        //   attendingPhysician: '',
-        //   residentPhysician: '',
-        //   npNurse: '',
-        //   primaryNurse: ''
-        //   });
-        //   return;
-        // }
-        // const responseNursClassDetail = await axios.get('http://localhost:8080/EbedsidecardSpring/api/getNursClass', {
-        //   params: { hbedno },
-        //   headers: {
-        //     Authorization: Bearer ${token}
-        //   }
-        // });
-        
-        // const nursClassDetail = responseNursClassDetail.data;
-        // const nurse = nursClassDetail && nursClassDetail.length > 0 ? nursClassDetail[0] : {};
-        
+          
         setCareTeam({
           attendingPhysician: doctor.HVDOCNM || '',
           residentPhysician: doctor.HRDOCNM || '',

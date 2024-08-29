@@ -210,8 +210,8 @@ const PatientCard = ({ hhisnum, setHhisnum, setHcaseno }) => {
       </div>
       <div className="d-flex justify-content-center">
         <button type="button" className="btn btn-warning ms-2" style={{ fontSize: '50px' }} onClick={handleScreenshot}>下載圖片</button>
-        <button type="button" className="btn btn-secondary ms-2" style={{ fontSize: '50px' }} onClick={handleUpload}>POST</button>
-        <button type="button" className="btn btn-primary ms-2" style={{ fontSize: '50px' }} onClick={handleUploadEPD}>EPD 上傳</button>
+        <button type="button" className="btn btn-secondary ms-2" style={{ fontSize: '50px' }} onClick={handleUpload}>更新URL</button>
+        <button type="button" className="btn btn-primary ms-2" style={{ fontSize: '50px' }} onClick={handleUploadEPD}>上傳EPD</button>
       </div>
 
     </div>
